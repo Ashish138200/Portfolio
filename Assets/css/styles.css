@@ -3,9 +3,37 @@ body{
     color: #f6f6f6;
     font-family: 'Cuprum', sans-serif;
 }
+/*      Navbar        */
 .nav-link{
     color: #f6f6f6;
 }
+/* Tutorial on https://fossheim.io/writing/posts/css-text-gradient. */
+
+.navbar-brand {
+  /* Fallback: Set a background color. */
+  background-color: #020a1c;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #522546, #E23E57);
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+}
+
+
+.nav-link:hover{
+    color: #E23E57;
+}
+
+/* TOP section             */
 
 pre{
     text-align: left;
@@ -68,14 +96,20 @@ pre{
 /*               About               */
 .profile{
     height: auto;
-    width: 90%;
-    border-radius: 50%;
+    width: 100%;
+    background: linear-gradient(to right,#020a1c, #bbd7f0 90%);
 }
 .aboutme{
-    background-color: #0c1b3b;
+    background: linear-gradient(to right,#020a1c, #bbd7f0 90%);
     text-align: center;
+    color: black;
 }
-
+#hrg{
+    background: linear-gradient(to right,#020a1c, #bbd7f0 90%);
+}
+#hrgr{
+    background: linear-gradient(to left,#020a1c 50%, #bbd7f0 50%);
+}
 .aboutmes{
     background-color: #bbd7f0;
     text-align: center;
@@ -87,12 +121,34 @@ pre{
 .amimg:hover{
     fill: #020a1c;
 }
-.ab{
-    border-top: #020a1c solid 100px;
+.icon,
+.text {
+  vertical-align: center;
+  display: inline-block;
 }
-.ab2{
-    border-left: #020a1c solid 100px;
+.icon1{
+    fill: #bbd7f0;
+
 }
+.icon2{
+    fill: #020a1c;
+}
+.c1{
+    color: #bbd7f0;
+}
+.c2{
+    color: #020a1c;
+}
+
+.ab2 {
+    background: linear-gradient(to left, #bbd7f0, #020a1c 60%);
+}
+.lg {
+  background: -webkit-linear-gradient(45deg,#bbd7f0 50%, #020a1c 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .hvr-grow {
   display: inline-block;
@@ -109,26 +165,29 @@ pre{
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
-
+.btn-primary{
+    background: #bbd7f0;
+    color: #020a1c;
+    font-family: 'Cuprum', sans-serif;
+}
 /*                   Education                   */
 .eduhead{
-    background-color: #0c1b3b;
+    background: linear-gradient(to right, #020a1c, #bbd7f0 ,#020a1c);
     text-align: center;
-    width: 33%;
-      margin: auto;
+    color: #020a1c;
+
 }
 
-{
-    height: 10px;
-  width: 10px;
-  background-color: #bbd7f0;
-  border-radius: 50%;
-  display: inline-block;
+.shadow-lg{
+    background-color: #020a1c;
 }
 .line:after{
     content: " ";
     display: block;
-    border-bottom: 1px solid #bbd7f0;
+    border-bottom: 1px solid #020a1c;
+}
+year{
+    color: #bbd7f0;
 }
 
 .timeline-horizontal-border {
@@ -138,29 +197,93 @@ pre{
 }
 .timeline-horizontal-border i {
     font-size:  10px;
-    color: #d92cf9;
     border-radius: 50%;
     margin-right:  5px;
 }
 span.single-timeline-horizontal {
     display:  inline-block;
-    background: #b2c1ce;
+    background: #bbd7f0;
     height:  1px;
     width: 380px;
 }
 
 
 /*                    Skills              */
-.shead {
-    background-color: #0c1b3b;
-    text-align: center;
-    width: 33%;
-    margin-left: 67%;
+
+.center{
+    margin-right: auto;
+    margin-left: auto;
 }
-.collapsed{
+th{
+    color: #E23E57;
+}
+td{
+    box-shadow: #020a1c 2px 2px;
+    color: #d45064;
+    background: -webkit-linear-gradient(60deg,#d45064, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ticons{
+    filter: invert(100%);
+}
+
+/*              Projects                 */
+.cpro{
+    background-color: #0c1b3b;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title{
     color: #bbd7f0;
 }
+.card-text{
+    color:white ;
+}
+.code{
+    float: left;
+    fill: #bbd7f0;
+}
+.web{
+    float: right;
+    fill: #bbd7f0;
+}
+.ticon,
+h6 {
+  vertical-align: center;
+  display: inline-block;
+}
+.card-img-top{
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    border: solid 6px #0c1b3b;
+}
+.pc2{
+    border-left:solid 6px #bbd7f0;
+    height: 50%;
+    border-radius: 6px;
+}
+
+/*               Contact                 */
+.s1{
+    filter: invert(100%);
+}
+.ch, .cicon{
+  vertical-align: center;
+  display: inline-block;
+}
+/*             Footer                    */
 footer{
     background-color: #0c1b3b;
     text-align: center;
+}
+.ftext{
+    background: -webkit-linear-gradient(45deg, #88304E, #E23E57);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bi-heart-fill{
+    fill: #88304E;
 }
