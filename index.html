@@ -26,14 +26,15 @@
 
 		<!--flat icon css-->
 		<link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
 
-    <!--                                     JavaScript                        -->
-    <script type="text/javascript" src="scripts.js"></script>
+
 </head>
-<body data-spy="scroll" data-offset="90" data-target="#navbar-example2">
+<div data-spy="scroll" data-offset="90" data-target="#navbar-example2">
 <nav id="navbar-example2" class="navbar fixed-top navbar-light" style="background-color:#020a1c">
     <div class="container">
-    <a class="navbar-brand" href="#" style="color: #f6f6f6"><b>Ashish</b></a>
+    <a class="navbar-brand hvr-grow" href="#" style="color: #f6f6f6"><b>Ashish</b></a>
   <ul class="nav nav-pills">
     <li class="nav-item">
       <a class="nav-link scrollto" href="#about">About</a>
@@ -76,23 +77,18 @@
 <br>
 <br>
 <hr>
+<br>
 <!--                                  About                           -->
-<section id="about">
-	<div class="container">
+    <section id="about">
         <div class="row ab">
             <div class="col-4 ab1">
-                <div class="aboutme rounded-pill">
+                <div class="aboutme rounded-top">
                     <h2>About <b>Me</b></h2>
                 </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <img src="Assets/images/WhatsApp%20Image%202020-11-18%20at%202.01.42%20AM.jpeg" alt="Ashish" class="profile">
-                <br>
-                <br>
-                <br>
-                <div class="aboutmes rounded-pill">
+                <hr id="hrg">
+                <img src="Assets/images/WhatsApp%20Image%202020-11-18%20at%202.01.42%20AM.jpeg" alt="Ashish" class="profile rounded">
+
+                <div class="aboutme rounded-bottom">
                     <!--<a href="#"><img  src="Assets/social/facebook.svg" class="amimg hvr-grow"></a>
                     <a href="#"><img  src="Assets/social/instagram.svg" class="amimg hvr-grow"></a>
                     -->
@@ -101,58 +97,125 @@
                     <a href="#"><img  src="Assets/social/github.svg" class="amimg hvr-grow"></a>
                 </div>
             </div>
-            <div class="col-8">
-                <div class="ab2">
+            <div class="col-8 ab2">
+                <div class="container">
                     <br>
                     <br>
                     <br>
+                <h3 style="color: #bbd7f0">Hi,</h3>
+                    <h4 class="lg">
+                        I'm Ashish Chaurasia and I'm pursuing B.Tech in Computer Science who is a keen learner for only things which gives him joy.I'm a Hardworking person and seeking to apply my skills and knowledge with my efforts. I believe in punctuality, honesty & quality of my work provided.
+                    </h4>
+                    <h4 class="lg">I develop python applications, web application using Django, Templates, websites, and deploying them on the cloud platform(AWS).</h4>
                     <br>
+                    <hr id="hrgr">
                     <br>
-                    <br>
-                <h4>I am a Web Developer</h4>
-              <!--  <figure>
-                <blockquote class="blockquote">
-    <p>Thanda paani matke mai, maa chod denge ek jhatke.</p>
-  </blockquote>
-  <figcaption class="blockquote-footer">
-    Ashish Chaurasia
-  </figcaption>
-</figure>-->
+                    <div class="aboutme"><h5>Interests</h5></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-caret-right-fill icon1" viewBox="0 0 16 16">
+                                    <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                </svg>
+                                </span>
+                                <p class="text c1"> Photography</p>
+                                <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-fill" viewBox="0 0 16 16">
+                                <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                                <path fill-rule="evenodd" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+                                </svg>
+                            </span>
+                            </div>
+                            <div class="col">
+                                <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-caret-right-fill icon2" viewBox="0 0 16 16">
+                                    <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                </svg>
+                                </span>
+                                <p class="text c2"> Music</p>
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headphones" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M8 3a5 5 0 0 0-5 5v4.5H2V8a6 6 0 1 1 12 0v4.5h-1V8a5 5 0 0 0-5-5z"/>
+                                        <path d="M11 10a1 1 0 0 1 1-1h2v4a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-3zm-6 0a1 1 0 0 0-1-1H2v4a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3z"/>
+                                  </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-caret-right-fill icon1" viewBox="0 0 16 16">
+                                    <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                </svg>
+                                </span>
+                                <p class="text c1"> Poetry</p>
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-vector-pen" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828L10.646.646zm-1.8 2.908l-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z"/>
+                                        <path fill-rule="evenodd" d="M2.832 13.228L8 9a1 1 0 1 0-1-1l-4.228 5.168-.026.086.086-.026z"/>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="col">
+                                <span class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-caret-right-fill icon2" viewBox="0 0 16 16">
+                                    <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                                </svg>
+                                </span>
+                                <p class="text c2"> Travelling</p>
+                                <span class="icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image-alt" viewBox="0 0 16 16">
+                                        <path d="M10.648 6.646a.5.5 0 0 1 .577-.093l4.777 3.947V15a1 1 0 0 1-1 1h-14a1 1 0 0 1-1-1v-2l3.646-4.354a.5.5 0 0 1 .63-.062l2.66 2.773 3.71-4.71z"/>
+                                        <path fill-rule="evenodd" d="M4.5 5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <br>
+                        <button type="button" class="btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-download" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.406 1.342A5.53 5.53 0 0 1 8 0c2.69 0 4.923 2 5.166 4.579C14.758 4.804 16 6.137 16 7.773 16 9.569 14.502 11 12.687 11H10a.5.5 0 0 1 0-1h2.688C13.979 10 15 8.988 15 7.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 2.825 10.328 1 8 1a4.53 4.53 0 0 0-2.941 1.1c-.757.652-1.153 1.438-1.153 2.055v.448l-.445.049C2.064 4.805 1 5.952 1 7.318 1 8.785 2.23 10 3.781 10H6a.5.5 0 0 1 0 1H3.781C1.708 11 0 9.366 0 7.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
+                                <path fill-rule="evenodd" d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z"/>
+                            </svg>
+                            Download My CV
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 </section>
-<br>
-<br>
-<br>
+    <br>
 <hr>
 <br>
 <br>
 <br>
 <section id="education">
-	<div class="container">
-        <div class="eduhead rounded-pill">
-            <h2><b>Edu</b>cation</h2>
+    <div class="eduhead rounded-pill">
+            <h2>Education</h2>
         </div>
+	<div class="container">
 		<br>
 		<br>
 		<br>
 		<div class="row">
 			<div class="col">
+                <div class="card shadow-lg p-3 mb-5 rounded" style="width: 25rem;">
 				<year><b>2016</b></year><br>
 				<h5>High School</h5>
                 <h6>ICSE Board</h6>
 				<div class="timeline-horizontal-border">
-					<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="#bbd7f0" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="8" cy="8" r="8"/>
                     </svg>
 					<span class="single-timeline-horizontal spacial-horizontal-line"></span>
 				</div>
 				<h5>Modern Public School</h5>
 				<h6>Jhansi(U.P.)-284002</h6>
+                </div>
 			</div>
 			<div class="col">
+                <div class="card shadow-lg p-3 mb-5 rounded" style="width: 25rem;">
 				<year><b>2018</b></year><br>
 				<h5>Intermediate</h5>
                 <h6>CBSE Board</h6>
@@ -165,12 +228,14 @@
 				<h5>Modern Public School</h5>
 				<h6>Jhansi(U.P.)-284002</h6>
 			</div>
+            </div>
 			<div class="col">
+                <div class="card shadow-lg p-3 mb-5 rounded" style="width: 25rem;">
 				<year><b>2018-2022</b></year><br>
 				<h5>Bachelor in Computer Science</h5>
 				<h6>Specialization in Cloud Computing and Virtualization</h6>
 				<div class="timeline-horizontal-border">
-					<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-circle-fill" fill="#bbd7f0" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="8" cy="8" r="8"/>
                     </svg>
 					<span class="single-timeline-horizontal spacial-horizontal-line"></span>
@@ -179,6 +244,7 @@
 				<h6>Mathura(U.P.)-281406</h6>
 			</div>
 		</div>
+        </div>
 	</div>
 </section>
 <br>
@@ -190,46 +256,53 @@
 <br>
 <!--                      Skills                      -->
 <section id="skills">
-    <div class="container">
-        <div class="shead rounded-pill">
+    <div class="eduhead rounded-pill">
         <h2><b>Skills</b></h2>
     </div>
+    <div class="container">
         <br>
 		<br>
 		<br>
-<div class="accordion accordion-flush" id="accordionFlushExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+        <!--<img src="Assets/icons/mysql.png" height="2%" width="2%" class="ticons">-->
+            <table class="center" width="75%">
+            <tr>
+                <th>Programming Languages</th>
+                <th>Scripting Languages</th>
+                <th>Web Frameworks</th>
+                <th>Version Control</th>
+                <th>Database</th>
+                <th>Deployment Tools</th>
+                <th>Graphic Tools</th>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>HTML</td>
+                <td>Django</td>
+                <td>Git</td>
+                <td>MySQL</td>
+                <td>AWS</td>
+                <td>Adobe Lightroom CC</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>CSS</td>
+                <td>Bootstrap</td>
+                <td>GitHub</td>
+                <td> </td>
+                <td>Docker</td>
+                <td>Adobe Photoshop</td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>JavaScript</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+        </table>
     </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="flush-headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-    </div>
-  </div>
-</div>
-</div>
 </section>
 <br>
 <br>
@@ -239,66 +312,159 @@
 <br>
 <br>
 <!--                      Projects                      -->
-<section id="projects">
-    <div class="container">
+    <section id="projects">
+        <h2 class="eduhead">Projects</h2>
+        <br>
+        <br>
+        <div class="container">
+    <div class="row">
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-  <div class="row">
-    <div class="col-md-8 border border-info">
-        <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+        <div class="col pc1">
+        <div class="card cpro" style="width: 18rem;">
+  <img src="https://drive.google.com/uc?export=view&id=1pScKbaBQIb_mCaSG-hWqpt1l2r5DVipL" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Music Template</h5>
+    <p class="card-text">Moood Muse is a one page template of a music application which covered all the aspect which a music template have.</p>
+    <h6>Built using:</h6>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML"><img src="Assets/icons/html-5.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="CSS"><img src="Assets/icons/css-3.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bootstrap"><img src="Assets/icons/bootstrap.png" height="7%" width="7%" class="ticons"></span>
+      <hr>
+      <a href="https://github.com/Ashish138200/Moood-Muse" class="code" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View code"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-code-square" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+    <path fill-rule="evenodd" d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+    </svg>
+    </a>
+      <a href="https://ashish138200.github.io/Moood-Muse/" class="web" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Visit website"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-laptop" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z"/>
+  <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z"/>
+</svg></a>
   </div>
 </div>
-    </div>
-    <div class="col-6 col-md-4 border border-info">
-        <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+            <br>
+        <div class="card cpro" style="width: 18rem;">
+  <img src="Assets/images/img_1.png" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Identifying Phishing Websites</h5>
+    <p class="card-text">This web application is used for the detection of phishing websites using data mining algorithm(decision-tree)</p>
+    <h6>Built using:</h6>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Python"><img src="Assets/icons/python-language-logotype.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Flask"><img src="Assets/icons/flask.jpg" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML"><img src="Assets/icons/html-5.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="CSS"><img src="Assets/icons/css-3.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bootstrap"><img src="Assets/icons/bootstrap.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="AWS"><img src="Assets/icons/icons8-amazon-web-services-512.png" height="7%" width="7%" class="ticons"></span>
+      <hr>
+      <a href="https://github.com/Ashish138200/pwd" class="code" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View code"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-code-square" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+    <path fill-rule="evenodd" d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+    </svg>
+    </a>
+      <a href="#" class="web" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Visit website"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-laptop" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z"/>
+  <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z"/>
+</svg></a>
   </div>
 </div>
-    </div>
+            <br>
+            <div class="card cpro" style="width: 18rem;">
+  <img src="Assets/images/COVID-19-Card-3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">COVID-19 Desktop Notifier</h5>
+    <p class="card-text">An application which pop-up the total number of daily, active, recovered, and deaths of COVID-19 cases in India.</p>
+    <h6>Built using:</h6>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Python"><img src="Assets/icons/python-language-logotype.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="MySQL"><img src="Assets/icons/mysql.png" height="7%" width="7%" class="ticons"></span>
+      <hr>
+      <a href="https://github.com/Ashish138200/COVID-Desktop-Notifier" class="code" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View code"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-code-square" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+    <path fill-rule="evenodd" d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+    </svg>
+    </a>
+      <a href="#" class="web" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Visit website"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-laptop" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z"/>
+  <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z"/>
+</svg></a>
   </div>
+</div>
+            </div>
+
 
   <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-  <div class="row">
-    <div class="col-6 col-md-4 border border-info">
-        <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+    <div class="col pc2">
+        <div class="card cpro" style="width: 18rem;">
+  <img src="https://drive.google.com/uc?export=view&id=1wqSYkOQ8MEyDTqjXy_sOrok-khdRU-Ks" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Bookstore</h5>
+    <p class="card-text">A demo bookstore application which stores, fetches, update, deletes the data from the database.</p>
+    <h6>Built using:</h6>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Python"><img src="Assets/icons/python-language-logotype.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="MySQL"><img src="Assets/icons/mysql.png" height="7%" width="7%" class="ticons"></span>
+      <hr>
+      <a href="https://github.com/Ashish138200/BookStore" class="code" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View code"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-code-square" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+    <path fill-rule="evenodd" d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+    </svg>
+    </a>
+      <a href="#" class="web" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Visit website"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-laptop" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z"/>
+  <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z"/>
+</svg></a>
+  </div>
+</div>
+<br>
+        <div class="card cpro" style="width: 18rem;">
+  <img src="Assets/images/img_2.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">My Blog</h5>
+    <p class="card-text">A basic demo Blog web application built using a powerful python web framework Django.</p>
+    <h6>Built using:</h6>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Python"><img src="Assets/icons/python-language-logotype.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Django"><img src="Assets/icons/file.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML"><img src="Assets/icons/html-5.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="CSS"><img src="Assets/icons/css-3.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="JavaScript"><img src="Assets/icons/javascript.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="MySQL"><img src="Assets/icons/mysql.png" height="7%" width="7%" class="ticons"></span>
+      <hr>
+      <a href="https://github.com/Ashish138200/Web-Developement/tree/master/FullStack/Django/BlogCloneProject/BCP" class="code" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View code"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-code-square" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+    <path fill-rule="evenodd" d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+    </svg>
+    </a>
+      <a href="#" class="web" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Visit website"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-laptop" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z"/>
+  <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z"/>
+</svg></a>
+  </div>
+</div>
+<br>
+        <div class="card cpro" style="width: 18rem;">
+  <img src="Assets/images/img.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Space Explorer</h5>
+    <p class="card-text">A basic demo Social Media web application built using a powerful python web framework Django.</p>
+      <h6>Built using:</h6>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Python"><img src="Assets/icons/python-language-logotype.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Django"><img src="Assets/icons/file.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="HTML"><img src="Assets/icons/html-5.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="CSS"><img src="Assets/icons/css-3.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="JavaScript"><img src="Assets/icons/javascript.png" height="7%" width="7%" class="ticons"></span>
+      <span class="tused" data-bs-toggle="tooltip" data-bs-placement="bottom" title="MySQL"><img src="Assets/icons/mysql.png" height="7%" width="7%" class="ticons"></span>
+      <hr>
+      <a href="https://github.com/Ashish138200/Web-Developement/tree/master/SocialMediaClone/SMC" class="code" data-bs-toggle="tooltip" data-bs-placement="bottom" title="View code"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-code-square" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+    <path fill-rule="evenodd" d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+    </svg>
+    </a>
+      <a href="#" class="web" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Visit website"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-laptop" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M13.5 3h-11a.5.5 0 0 0-.5.5V11h12V3.5a.5.5 0 0 0-.5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11z"/>
+  <path d="M0 12h16v.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5V12z"/>
+</svg></a>
   </div>
 </div>
     </div>
-    <div class="col-6 col-md-4 border border-info">
-        <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
     </div>
-    <div class="col-6 col-md-4 border border-info">
-        <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-    </div>
-  </div>
-    </div>
+        </div>
 </section>
 <br>
 <br>
@@ -307,15 +473,51 @@
 <br>
 <br>
 <br>
+
 <!--                      Contact                      -->
 <section id="contact">
-    
+    <h2 class="eduhead">Contact Me</h2>
+    <div class="container">
+    <div class="row">
+        <div class="col">
+            <br>
+            <h5>Let's talk about everything!</h5>
+            <p>If you like my work, feel free to contact me. Here below are my contact no. & work email. Let's talk about what you want, I am ready to create it for you.</p>
+            <p>Thank You</p>
+        </div>
+        <div class="col">
+            <br>
+            <!--
+            <h5>Phone: </h5>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill cicon" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+            </svg>
+            <p class="ch">+91-9889512284</p>-->
+            <h5>Email: </h5>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill cicon" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+            </svg>
+            <p class="ch">ashish1382000@gmail.com</p>
+        </div>
+        <div class="col">
+            <br>
+            <h5>Follow me on Social Media</h5>
+            <a href="#"><img  src="Assets/social/twitter.svg" class="s1 hvr-grow" height="12%" width="12%"></a>
+            <a href="#"><img  src="Assets/social/linkedin.svg" class="s1 hvr-grow" height="12%" width="12%"></a>
+            <a href="#"><img  src="Assets/social/github.svg" class="s1 hvr-grow" height="12%" width="12%"></a>
+            <a href="#"><img  src="Assets/social/instagram.svg" class="s1 hvr-grow" height="12%" width="12%"></a>
+        </div>
+    </div>
+    </div>
 </section>
-<br>
-<br>
+</div>
 <br>
 <footer>
-    This webpage is made & designed by Ashish Chaurasia ©
+    <span class="ftext">This webpage is made with
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  class="bi bi-heart-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+        </svg>
+        & designed by Ashish Chaurasia &copy;
+    </span>
 </footer>
-</body>
 </html>
